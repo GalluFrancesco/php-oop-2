@@ -34,4 +34,17 @@ class User{
     public function setSub($subscribed){
         $this->subscribed = $subscribed;
     }
+
+    public function discount(){
+
+        //se l'utente è iscritto la funzione restituisce il tasso
+        //scontato dell'oggetto ovvero dovrò moltiplicare
+        //il valore originale dell'oggetto per questo tasso per ottenere
+        //il nuovo valore
+        if($this->subscribed){
+            return 0.8;
+        }
+
+        return 1;
+    }
 }
