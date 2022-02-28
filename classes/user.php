@@ -1,6 +1,6 @@
 <?php
 
-class Product{
+class User{
     private string  $name;
     private bool    $subscribed;
     private array   $cart;
