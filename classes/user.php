@@ -24,7 +24,7 @@ class User{
     }
 
     public function addItem($item){
-        $this->cart = $item;
+        $this->cart[] = $item;
     }
 
     public function getSub(){

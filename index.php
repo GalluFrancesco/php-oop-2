@@ -12,9 +12,9 @@ $item5= new Toy("gioco2", 12.40, 2002, "legno");
 
 $user = new User("Pippo Baudo", true);
 
-$user=>addItem($item1);
-$user=>addItem($item3);
-$user=>addItem($item4);
+$user->addItem($item1);
+$user->addItem($item3);
+$user->addItem($item4);
 
 var_dump($user);
 
