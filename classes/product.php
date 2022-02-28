@@ -34,7 +34,7 @@ class Product{
     return $this->barCode;
   }
 
-  public function setBarCode($name){
+  public function setBarCode($barCode){
     $this->barCode = $barCode;
   }
 }

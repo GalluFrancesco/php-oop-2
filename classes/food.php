@@ -9,8 +9,8 @@ class Food extends Product{
     function __construct($name, $price, $barCode, $weight) {
         parent::setName($name);
         parent::setPrice($price);
-        parent::setName($barCode);
-        $this->weight=$this->setWeight($weight);;
+        parent::setbarCode($barCode);
+        $this->setWeight($weight);;
         $this->typeCode="cibo";
       }
 

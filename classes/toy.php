@@ -9,8 +9,8 @@ class Toy extends Product{
     function __construct($name, $price, $barCode, $material) {
         parent::setName($name);
         parent::setPrice($price);
-        parent::setName($barCode);
-        $this->weight=$this->setWeight($material);;
+        parent::setBarCode($barCode);
+        $this->setMaterial($material);;
         $this->typeCode="gioco";
       }
 
